@@ -1,7 +1,7 @@
 package Condições_Básicas;
 import java.util.Scanner;
 
-public class velocidadeCarro {
+public class VelocidadeCarro {
     public static void main(String[] args) {
         try(Scanner scanner = new Scanner(System.in)) {
 

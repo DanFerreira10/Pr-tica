@@ -2,7 +2,7 @@ package Sequências_Básicas;
 
 import java.util.Scanner;
 
-public class equaçao2Grau {
+public class Equaçao2Grau {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
 

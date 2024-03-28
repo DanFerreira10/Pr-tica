@@ -1,6 +1,6 @@
 package Sequências_Básicas;
 import java.util.Scanner;
-public class apresentar {
+public class Apresentar {
     public static void main(String[] args) throws Exception {
         try(Scanner scanner = new Scanner(System.in)){
             System.out.println("What's your name? ");
