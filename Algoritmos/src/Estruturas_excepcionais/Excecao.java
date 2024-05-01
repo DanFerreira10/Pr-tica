@@ -1,10 +1,12 @@
 package Estruturas_excepcionais;
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class Excecao {
     public static void main(String[] args) {
-         //criando o objeto scanner
+        try{
+        //criando o objeto scanner
          Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
          System.out.println("Digite seu nome");
@@ -25,5 +27,9 @@ public class Excecao {
          System.out.println("Tenho " + idade + " anos ");
          System.out.println("Minha altura é " + altura + "cm ");
          scanner.close(); 
+        }
+        catch (InputMismatchException e){
+        System.out.println("Os campos idade e altura precisam ser numéricos");
+        }
     }
 }
