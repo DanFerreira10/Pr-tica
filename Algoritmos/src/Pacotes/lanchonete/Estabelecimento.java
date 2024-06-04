@@ -1,13 +1,13 @@
-package lanchonete;
+package Pacotes.lanchonete;
 
-import lanchonete.area.cliente.Cliente;
-import lanchonete.atendimento.Atendente;
-import lanchonete.atendimento.cozinha.Cozinheiro;
+import Pacotes.lanchonete.area.cliente.Cliente;
+import Pacotes.lanchonete.atendimento.Atendente;
+import Pacotes.lanchonete.atendimento.cozinha.Cozinheiro;
 
 public class Estabelecimento {
 	public static void main(String[] args) {
 		Cozinheiro cozinheiro = new Cozinheiro();
-		cozinheiro.adicionarSucoNoBalcao();;
+		cozinheiro.adicionarSucoNoBalcao();
 		cozinheiro.adicionarLancheNoBalcao();
 		cozinheiro.adicionarComboNoBalcao();
 		

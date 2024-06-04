@@ -1,4 +1,4 @@
-package lanchonete.atendimento.cozinha;
+package Pacotes.lanchonete.atendimento.cozinha;
 
 public class Almoxarife {
 	private void controlarSaida() {

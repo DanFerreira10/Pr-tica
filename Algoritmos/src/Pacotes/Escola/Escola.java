@@ -1,4 +1,4 @@
-package Escola;
+package Pacotes.Escola;
 
 public class Escola {
 	public static void main(String[] args) {
