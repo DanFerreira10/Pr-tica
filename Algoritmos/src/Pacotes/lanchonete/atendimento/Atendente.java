@@ -1,4 +1,4 @@
-package lanchonete.atendimento;
+package Pacotes.lanchonete.atendimento;
 
 public class Atendente {
 	public void servindoMesa() {

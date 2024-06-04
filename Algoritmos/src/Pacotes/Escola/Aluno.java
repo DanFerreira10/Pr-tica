@@ -1,4 +1,4 @@
-package Escola;
+package Pacotes.Escola;
 
 public class Aluno {
 	private String nome;
